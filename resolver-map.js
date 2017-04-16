@@ -1,7 +1,7 @@
-const data = require('./data/raw.json')
 const objects = require('./data/object.json')
 const periods = require('./data/period.json')
 const visionTags = require('./data/cloud-vision.json')
+const galleries = require('./data/gallery.json')
 
 const titleFields = [
   'Title 1',
@@ -54,10 +54,8 @@ module.exports = {
       return objects[id]
     },
     gallery (_, { number }) {
-      const objects = filterByGalleryString(`Gallery ${number}`)
-      if (objects.length !== 0) {
-        return { number, objects }
-      }
+      const gallery = galleries[number]
+      if (gallery) return Object.assign({ number }, galleries[number])
     },
     location (_, { name }) {
       return Object.keys(locations).map((name) => ({ name }))
@@ -77,14 +75,13 @@ module.exports = {
       const galleryStr = object['Gallery Location']
       if (galleryStr.startsWith('Gallery')) {
         const number = galleryStr.split(', ')[0].split(' ')[1]
-        return { number }
+        return Object.assign({ number }, galleries[number])
       }
     }
   },
   Gallery: {
-    objects ({number, objects}) {
-      if (objects) return objects
-      return filterByGalleryString(`Gallery ${number}`)
+    objects (root) {
+      return root.objects.map((id) => objects[id])
     }
   },
   Tag: {
@@ -94,8 +91,4 @@ module.exports = {
         .map((id) => objects[id])
     }
   }
-}
-
-function filterByGalleryString (string) {
-  return data.filter((obj) => obj['Gallery Location'] && obj['Gallery Location'].includes(string))
 }
