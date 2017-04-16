@@ -8,7 +8,7 @@ This is the data released by the Philadelphia Art Museum for their [hackathon](h
 - Wrapped in a GraphQL API
 - Images processed with [Google Cloud Vision](https://cloud.google.com/vision/)
 
-## Examples
+## Example Queries
 
 [All the objects in the same gallery as Object 209018](https://pma.now.sh/?query=%7B%0A%20%20object(id%3A%20209018)%20%7B%0A%20%20%20%20id%0A%20%20%20%20gallery%20%7B%0A%20%20%20%20%20%20number%0A%20%20%20%20%20%20objects%20%7B%0A%20%20%20%20%20%20%20%20id%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
 
