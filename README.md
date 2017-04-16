@@ -14,6 +14,8 @@ This is the data released by the Philadelphia Art Museum for their [hackathon](h
 
 [Every object tagged by Google Cloud Vision with "teapot"](https://pma.now.sh/?query=%7B%0A%20%20tag(description%3A%20%22teapot%22)%20%7B%0A%20%20%20%20objects%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
 
+[Every gallery containing an object tagged by Google Cloud Vision with "camel"](https://pma.now.sh/?query=%7B%0A%20%20tag(description%3A%20%22camel%22)%20%7B%0A%20%20%20%20objects%20%7B%0A%20%20%20%20%20%20titles%0A%20%20%20%20%20%20gallery%20%7B%0A%20%20%20%20%20%20%20%20number%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
+
 ## Why?
 
 The original dataset is just one big array. I wanted to be able to access the data in different ways and also augment with new data. Originally this project started out as just slicing the data in different ways to see what was there. You can see that effort still in `/data` where I rollup some fields across the entire data set. Later it seemed that a GraphQL API would be beneficial so I added that too.
