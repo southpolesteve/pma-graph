@@ -1,0 +1,15 @@
+{
+  "Rodin Museum": {
+    "sections": [
+      "Main Gallery",
+      "West Gallery",
+      "East Gallery",
+      "North Gallery",
+      "Northwest Gallery",
+      "Visitor Center Foyer",
+      "Northeast Gallery",
+      "Exit Foyer",
+      "Parkway"
+    ]
+  }
+}

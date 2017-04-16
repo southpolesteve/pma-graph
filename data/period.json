@@ -1,0 +1,215 @@
+{
+  "Ottoman Empire (1299-1923)": {
+    "start": "1299",
+    "end": "1923",
+    "name": "Ottoman Empire"
+  },
+  "Wanli Period (1573-1620)": {
+    "start": "1573",
+    "end": "1620",
+    "name": "Wanli"
+  },
+  "Jiajing Period (1522-1566)": {
+    "start": "1522",
+    "end": "1566",
+    "name": "Jiajing"
+  },
+  "Victorian": {
+    "name": "Victorian"
+  },
+  "antebellum": {
+    "name": "antebellum"
+  },
+  "Tongzhi Period (1862-1874)": {
+    "start": "1862",
+    "end": "1874",
+    "name": "Tongzhi"
+  },
+  "Momoyama Period (1568-1615)": {
+    "start": "1568",
+    "end": "1615",
+    "name": "Momoyama"
+  },
+  "Qianlong Period (1736-1795)": {
+    "start": "1736",
+    "end": "1795",
+    "name": "Qianlong"
+  },
+  "Meiji Period (1868-1912)": {
+    "start": "1868",
+    "end": "1912",
+    "name": "Meiji"
+  },
+  "Progressive Era": {
+    "name": "Progressive Era"
+  },
+  "Edo Period (1615-1868)": {
+    "start": "1615",
+    "end": "1868",
+    "name": "Edo"
+  },
+  "Kangxi Period (1662-1722)": {
+    "start": "1662",
+    "end": "1722",
+    "name": "Kangxi"
+  },
+  "Seljuk Period (1038-1220)": {
+    "start": "1038",
+    "end": "1220",
+    "name": "Seljuk"
+  },
+  "Neoclassical": {
+    "name": "Neoclassical"
+  },
+  "Medieval Period": {
+    "name": "Medieval"
+  },
+  "Warring States Period (476-221 BCE)": {
+    "start": "476",
+    "end": "221 BCE",
+    "name": "Warring States"
+  },
+  "Colonial": {
+    "name": "Colonial"
+  },
+  "Antebellum": {
+    "name": "Antebellum"
+  },
+  "Spring and Autumn Period (770-476 BCE)": {
+    "start": "770",
+    "end": "476 BCE",
+    "name": "Spring and Autumn"
+  },
+  "Neolithic Period (10,000-c. 2100 BCE), Majiayao Culture": {
+    "name": "Neolithic"
+  },
+  "Neolithic Period (10,000-c. 2100 BCE)": {
+    "start": "10,000",
+    "end": "c. 2100 BCE",
+    "name": "Neolithic"
+  },
+  "Taishō Period (1912-1926)": {
+    "start": "1912",
+    "end": "1926",
+    "name": "Taishō"
+  },
+  "Muromachi Period (1392-1573)": {
+    "start": "1392",
+    "end": "1573",
+    "name": "Muromachi"
+  },
+  "Imperial": {
+    "name": "Imperial"
+  },
+  "Sasanian Dynasty (226-641)": {
+    "start": "226",
+    "end": "641",
+    "name": "Sasanian Dynasty"
+  },
+  "Jiaqing Period (1796-1820)": {
+    "start": "1796",
+    "end": "1820",
+    "name": "Jiaqing"
+  },
+  "Great Mongols Period (1206-1634)": {
+    "start": "1206",
+    "end": "1634",
+    "name": "Great Mongols"
+  },
+  "Hongzhi Period (1488-1505)": {
+    "start": "1488",
+    "end": "1505",
+    "name": "Hongzhi"
+  },
+  "Daoguang Period (1821-1850)": {
+    "start": "1821",
+    "end": "1850",
+    "name": "Daoguang"
+  },
+  "Guangxu Period (1875-1908)": {
+    "start": "1875",
+    "end": "1908",
+    "name": "Guangxu"
+  },
+  "Yongzheng Period (1723-1735)": {
+    "start": "1723",
+    "end": "1735",
+    "name": "Yongzheng"
+  },
+  "Late Wanli Period (1573-1620)": {
+    "start": "1573",
+    "end": "1620",
+    "name": "Late Wanli"
+  },
+  "Xuande Period (1426-1435)": {
+    "start": "1426",
+    "end": "1435",
+    "name": "Xuande"
+  },
+  "Yongle Period (1403-1424)": {
+    "start": "1403",
+    "end": "1424",
+    "name": "Yongle"
+  },
+  "Qajar Period (1779-1924)": {
+    "start": "1779",
+    "end": "1924",
+    "name": "Qajar"
+  },
+  "Dading Period (1161-89)": {
+    "start": "1161",
+    "end": "89",
+    "name": "Dading"
+  },
+  "Shōwa Period (1926-1989)": {
+    "start": "1926",
+    "end": "1989",
+    "name": "Shōwa"
+  },
+  "Gothic": {
+    "name": "Gothic"
+  },
+  "Modern Period": {
+    "name": "Modern"
+  },
+  "Angkor Period": {
+    "name": "Angkor"
+  },
+  "Late Neolithic Period (c. 2500-2000 BCE)": {
+    "start": "c. 2500",
+    "end": "2000 BCE",
+    "name": "Late Neolithic"
+  },
+  "Federal": {
+    "name": "Federal"
+  },
+  "Ayutthaya Period (1351-1767)": {
+    "start": "1351",
+    "end": "1767",
+    "name": "Ayutthaya"
+  },
+  "Middle Jomon Period (2500-1500 BCE)": {
+    "start": "2500",
+    "end": "1500 BCE",
+    "name": "Middle Jomon"
+  },
+  "Renaissance": {
+    "name": "Renaissance"
+  },
+  "Late Kamakura Period (1185-1333)": {
+    "start": "1185",
+    "end": "1333",
+    "name": "Late Kamakura"
+  },
+  "Heian Period (794-1185)": {
+    "start": "794",
+    "end": "1185",
+    "name": "Heian"
+  },
+  "Gilded Age": {
+    "name": "Gilded Age"
+  },
+  "Pre-Angkor Period": {
+    "name": "Pre-Angkor"
+  }
+}
