@@ -30,11 +30,7 @@ stream.on('data', (obj) => {
   // extract ID
   const id = parseInt(obj['ObjectID'], 10)
 
-  addToCollection('object', id, {
-    url: obj['PMA URL'],
-    objectNumber: obj['Object Number'],
-    imageFilename: obj['Image Filename']
-  })
+  addToCollection('object', id, obj)
 
   if (obj['Latitude']) { data.object[id].latitude = parseFloat(obj['Latitude']) }
   if (obj['Longitude']) { data.object[id].latitude = parseFloat(obj['Longitude']) }

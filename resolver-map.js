@@ -1,4 +1,5 @@
 const data = require('./data/raw.json')
+const objects = require('./data/object.json')
 const periods = require('./data/period.json')
 const visionTags = require('./data/cloud-vision.json')
 
@@ -50,9 +51,7 @@ const locations = {
 module.exports = {
   Query: {
     object (_, { id }) {
-      return data.find((object) => {
-        return object['ObjectID'] === String(id)
-      })
+      return objects[id]
     },
     gallery (_, { number }) {
       const objects = filterByGalleryString(`Gallery ${number}`)
@@ -92,7 +91,7 @@ module.exports = {
     objects ({ description }) {
       return Object.keys(visionTags)
         .filter((id) => visionTags[id].includes(description))
-        .map((id) => data.find((obj) => obj['ObjectID'] === id))
+        .map((id) => objects[id])
     }
   }
 }
