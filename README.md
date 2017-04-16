@@ -2,7 +2,7 @@
 
 https://pma.now.sh/
 
-## What?
+## What is this?
 
 This is the data released by the Philadelphia Art Museum for their [hackathon](https://github.com/philamuseum/hackathon) with some additional features
 - Wrapped in a GraphQL API
@@ -11,6 +11,7 @@ This is the data released by the Philadelphia Art Museum for their [hackathon](h
 ## Examples
 
 [All the objects in the same gallery as Object 209018](https://pma.now.sh/?query=%7B%0A%20%20object(id%3A%20209018)%20%7B%0A%20%20%20%20id%0A%20%20%20%20gallery%20%7B%0A%20%20%20%20%20%20number%0A%20%20%20%20%20%20objects%20%7B%0A%20%20%20%20%20%20%20%20id%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
+
 [Every object tagged by Google Cloud Vision with "teapot"](https://pma.now.sh/?query=%7B%0A%20%20tag(description%3A%20%22teapot%22)%20%7B%0A%20%20%20%20objects%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
 
 ## Why?
