@@ -41,7 +41,11 @@ Please submit issues and PRs!
 First run `yarn` to install all dependencies
 
 `yarn start` - Start API locally
+
 `yarn start:watch` - Start API locally with file watch enabled
+
 `yarn process` - Script that generates the files in `/data` from `/data/raw.json`
+
 `yarn cloud-vision` - Processes all images through google cloud vision api and save to `/data/cloud-vision.json`. Takes about 10 minutes. Images are served from S3.
+
 `yarn lint`- lints the entire project
